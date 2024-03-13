@@ -12,14 +12,14 @@ const PortfolioComponent = ({ leftContent, rightContent }) => (
       <div className="portfolio-languages">
         <h3>MADE WITH</h3>
         <div className="dotted-line"></div>
-        {/* {leftContent.languages.map((language, index) => (
+        {leftContent.languages.map((language, index) => (
           <img key={index} src={language} alt="" />
-        ))} */}
+        ))}
       </div>
     </div>
     <div className="portfolio-right">
       <div className="v-bar"></div>
-      {/* <img src={rightContent.imageSrc} alt="" /> */}
+      <img src={rightContent.imageSrc} alt="" />
     </div>
   </div>
 );
